@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Guest Manage System Inteface Test Report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/Chart.js/0.2.0/Chart.min.js"></script>
+    <!-- <link href="https://cdn.bootcss.com/echarts/3.8.5/echarts.common.min.js" rel="stylesheet">   -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         {  }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+	margin-left: 10px;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+    margin-left: 10px;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+    margin-left: 10px;
+}
+#header_row {
+    font-weight: bold;
+    color: #606060;
+    background-color: #f5f5f5;
+    border-top-width: 10px;
+    border-color: #d6e9c6;
+	font-size: 12px;
+}
+#result_table td {
+    border: 1px solid #f5f5f5;
+    padding: 2px;
+
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #d6e9c6; }
+.failClass  { background-color: #faebcc; }
+.errorClass { background-color: #ebccd1; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+/* -- chars ---------------------------------------------------------------------- */
+.testChars {margin-left: 150px;}
+
+.btn-info1 {
+    color: #fff;
+    background-color: #d6e9c6;
+    border-color: #d6e9c6;
+}
+
+.btn-info2 {
+    color: #fff;
+    background-color: #faebcc;
+    border-color: #faebcc;
+}
+
+.btn-info3 {
+    color: #fff;
+    background-color: #ebccd1;
+    border-color: #ebccd1;
+}
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>Guest Manage System Inteface Test Report</h1>
+<p class='attribute'><strong>Start Time:</strong> 2020-07-04 10:22:52</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:11.840420</p>
+<p class='attribute'><strong>Status:</strong> Pass 2</p>
+
+<p class='description'>Implementation Example with:</p>
+</div>
+
+<div style="float:left; margin-left: 10px;">
+	<p> Test Case Pie charts </p>
+	<a class="btn btn-xs btn-info1">-Pass-</a><br>
+	<a class="btn btn-xs btn-info2">-Faild-</a><br>
+	<a class="btn btn-xs btn-info3">-Error-</a><br>
+</div>
+
+<div class="testChars">
+	<canvas id="myChart" width="250" height="250"></canvas>
+</div>
+
+
+
+<p id='show_detail_line' style="margin-left: 10px;">Show
+<a href='javascript:showCase(0)' class="btn btn-outline-primary btn-sm">Summary</a>
+<a href='javascript:showCase(1)' class="btn btn-outline-warning btn-sm">Failed</a>
+<a href='javascript:showCase(2)' class="btn btn-outline-info btn-sm">All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="panel-title">
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='passClass'>
+    <td>login.LoginTest:  登录接口 </td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_failed</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: test_login_failed
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_success</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: test_login_success
+{'params': 'r395Sc3xZIzRK21PURmSjvTVRoK1HV8aPAYnRya7s9o/pwCBzaAgbNmDNth9D/5jfjoHT1v739MmO8tOvLyZyQABJtfgB0S9OetAY3S7g48nx5l0gAeiaoyvhSIBIErmy4eylKOU8Ewa1Q1Z+LQixFjdt4VxwkVuMpVxbEUCKXf8Ycb7Z1022EP1DTOO/t5qeuGmtfw70cSPBdMLzqXegA==', 'encSecKey': 'bf6ba8ae5dbc9114fdfb7f1f7240ec0ab5ee07057d9dfd751b8a9b979396b80e2c4d55294d01c732d26cac6f5f6490e877f0c9eb53c51fdb6190131a41a3a4f4440cc6308066065e7f3dca2dc31aa2f0a635042c9fc2ab25863f770fdf005ef135ce78ba216c152c10d6958d932a3d7d78f15ca5260ce71b1f445a9f3d6de273'}
+{'loginType': 1, 'code': 200, 'account': {'id': 1541194463, 'userName': '1_15074816863', 'type': 1, 'status': 0, 'whitelistAuthority': 0, 'createTime': 1533217897491, 'salt': '[B@379a2ca1', 'tokenVersion': 1, 'ban': 0, 'baoyueVersion': 0, 'donateVersion': 0, 'vipType': 0, 'viptypeVersion': 0, 'anonimousUser': False}, 'token': 'af1b738f9c78b9677db6c1291830e76af9fefbf6d9fc0a6d8eb10e0f6bad27a80931c3a9fbfe3df2', 'profile': {'vipType': 0, 'gender': 2, 'accountStatus': 0, 'avatarImgId': 109951163438896276, 'nickname': '樱桃你个车厘子1808', 'birthday': -2209017600000, 'city': 310101, 'userType': 0, 'backgroundImgId': 109951162868128395, 'avatarUrl': 'http://p1.music.126.net/0yAUvMLQ8K0mMlFyQmGsFQ==/109951163438896276.jpg', 'defaultAvatar': False, 'province': 310000, 'djStatus': 0, 'experts': {}, 'mutual': False, 'remarkName': None, 'expertTags': None, 'authStatus': 0, 'detailDescription': '', 'followed': False, 'backgroundUrl': 'http://p1.music.126.net/2zSNIqTcpHL2jIvU6hG0EA==/109951162868128395.jpg', 'avatarImgIdStr': '109951163438896276', 'backgroundImgIdStr': '109951162868128395', 'description': '', 'userId': 1541194463, 'signature': '', 'authority': 0, 'avatarImgId_str': '109951163438896276', 'followeds': 0, 'follows': 3, 'eventCount': 0, 'playlistCount': 1, 'playlistBeSubscribedCount': 0}, 'bindings': [{'bindingTime': 1533217924986, 'expiresIn': 2147483647, 'tokenJsonStr': '{"countrycode":"","cellphone":"15074816863","hasPassword":true}', 'refreshTime': 1533217924, 'expired': False, 'url': '', 'userId': 1541194463, 'id': 6646248559, 'type': 1}, {'bindingTime': 1533217897651, 'expiresIn': 7200, 'tokenJsonStr': '{"access_token":"26_9_TB9zAxaepUI9Q0ESbaWloemnkH2byuPxNWXmuHkdBI225y-geBJV_nXT_F0DAAznQw7bt7w1ng2GGLWuLUlUwM2GHLMkYEz7tdJYeboBQ","refresh_token":"26_pR_-NEw10v8qQ4SYu3fzNsZvrhytFujHnHG5ctlaBsYuzASdr3ETbsTqWALXs2v0xeUCZncr9jlGjMTpRnert4aHb6xz539Dl4fvyGVXmyE","unionid":"oZoefuApZ48KvqyXwTwZwjq8AHVA","openid":"okvmMjq1Xor4n8iANnCze8CT-jeo","scope":"snsapi_userinfo","name":"樱桃你个车厘子","nickname":"樱桃你个车厘子","expires_in":7200}', 'refreshTime': 1571817533, 'expired': True, 'url': '', 'userId': 1541194463, 'id': 6646248560, 'type': 10}]}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>2</td>
+    <td class="text text-success">2</td>
+    <td class="text text-danger">0</td>
+    <td class="text text-warning">0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+    <script type="text/javascript">
+var data = [
+	{
+		value: 0,
+		color: "#ebccd1",
+		label: "Error",
+		labelColor: 'white',
+		labelFontSize: '16'
+	},
+	{
+		value : 0,
+		color : "#faebcc",
+		label: "Fail",
+		labelColor: 'white',
+		labelFontSize: '16'
+	},
+	{
+		value : 2,
+		color : "#d6e9c6",
+		label : "Pass",
+		labelColor: 'white',
+		labelFontSize: '16'
+	}			
+]
+
+var newopts = {
+     animationSteps: 100,
+ 		animationEasing: 'easeInOutQuart',
+}
+
+//Get the context of the canvas element we want to select
+var ctx = document.getElementById("myChart").getContext("2d");
+
+var myNewChart = new Chart(ctx).Pie(data,newopts);
+
+</script>
+	
+</body>
+</html>

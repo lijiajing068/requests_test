@@ -1,0 +1,10 @@
+[2020-07-06 20:09:20,096] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-06 20:09:21,778] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-06 20:10:14,141] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-06 20:10:16,323] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-06 20:11:11,444] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-06 20:11:13,481] - logger.py] - INFO: 查询成功: 200
+[2020-07-06 20:11:13,484] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-06 20:11:13,491] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-06 20:11:15,484] - logger.py] - INFO: 查询成功: 200
+[2020-07-06 20:11:15,484] - logger.py] - INFO: -------------end:search_songs----------

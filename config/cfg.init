@@ -1,0 +1,8 @@
+[email]
+smtp_server=smtp.qq.com
+port=465
+sender=3061505036@qq.com
+#psw是qq的授权码
+psw=
+#多个收件人使用逗号隔开
+receiver=863667546@qq.com

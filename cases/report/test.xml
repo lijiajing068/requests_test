@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="LX-201505051702" name="pytest" skipped="0" tests="1" time="2.225" timestamp="2020-07-07T10:31:34.622188"><testcase classname="test_login.TestLogin" file="test_login.py" line="9" name="test_login_success" time="1.835"></testcase></testsuite></testsuites>

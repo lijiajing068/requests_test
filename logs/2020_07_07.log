@@ -1,0 +1,173 @@
+[2020-07-07 18:22:37,244] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 18:22:37,649] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 18:22:37,650] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 18:35:22,447] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 18:35:22,918] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 18:35:22,919] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 18:37:00,965] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 18:37:38,953] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 18:37:40,807] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 18:37:40,809] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 18:37:40,817] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 18:37:42,638] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 18:37:42,640] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 18:46:57,155] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 18:47:46,339] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 19:30:42,276] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 19:30:44,016] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 19:30:45,858] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:30:45,858] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:30:45,858] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 19:30:47,901] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:30:47,901] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:30:47,917] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 19:30:48,354] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 19:30:48,354] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 19:34:07,568] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 19:34:09,429] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:34:09,429] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:35:14,767] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 19:35:16,655] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:35:16,658] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:36:19,149] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 19:36:21,255] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:36:21,255] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:36:56,676] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 19:36:58,915] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:36:58,915] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:42:57,937] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 19:42:59,825] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:42:59,825] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:42:59,840] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 19:43:01,970] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 19:43:01,970] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 19:54:22,583] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 19:57:44,381] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 19:57:46,147] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:09:04,424] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:09:05,157] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:09:05,160] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:09:45,902] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:09:48,351] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:09:48,351] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:09:48,367] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:09:51,306] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:09:51,306] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:11:43,915] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:11:46,645] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:11:46,645] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:11:46,661] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:11:49,498] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:11:49,498] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:12:40,245] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:12:43,064] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:12:43,067] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:12:43,077] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:12:49,153] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:12:49,153] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:13:24,342] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:13:30,094] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:13:30,094] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:13:30,094] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:13:32,912] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:13:32,912] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:14:41,129] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:14:44,346] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:14:44,346] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:14:44,361] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:14:47,154] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:14:47,154] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:18:14,060] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:18:16,933] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:18:16,933] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:18:16,933] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:18:19,710] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:18:19,713] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:21:07,543] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:21:10,695] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:21:10,711] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:21:10,711] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:21:13,721] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:21:13,721] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:25:53,618] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:25:56,376] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:25:56,376] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:25:56,392] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:25:59,091] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:25:59,091] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:30:54,194] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:30:57,097] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:30:57,099] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:30:57,112] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:30:59,981] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:30:59,981] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:34:56,258] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:34:58,834] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:35:01,504] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:35:01,506] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:35:01,514] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:35:04,328] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:35:04,328] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:35:04,343] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:35:04,967] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:35:04,967] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:45:39,913] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:45:41,698] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:45:43,506] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:45:43,506] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:45:43,522] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:45:45,424] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:45:45,426] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:45:45,443] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:45:46,087] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:45:46,087] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:47:50,745] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:47:52,424] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:47:54,201] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:47:54,201] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:47:54,216] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:47:56,073] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:47:56,073] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:47:56,088] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:47:56,666] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:47:56,666] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:51:28,311] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:51:30,048] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:51:31,890] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:51:31,891] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:51:31,899] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:51:33,887] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:51:33,889] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:51:33,899] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:51:34,589] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:51:34,590] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:53:03,628] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:53:05,290] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:53:07,095] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:53:07,095] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:53:07,111] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:53:09,069] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:53:09,071] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:53:09,086] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:53:09,790] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:53:09,790] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:54:15,973] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:54:17,636] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:54:19,487] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:54:19,487] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:54:19,487] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:54:21,537] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:54:21,537] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:54:21,553] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:54:22,380] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:54:22,380] - logger.py] - INFO: -------------end:select_detail----------
+[2020-07-07 20:56:17,186] - logger.py] - INFO: -------------start:new_songs----------
+[2020-07-07 20:56:18,868] - logger.py] - INFO: -------------start:search_songs----------
+[2020-07-07 20:56:20,709] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:56:20,709] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:56:20,725] - logger.py] - INFO: -------------start:search_songs02----------
+[2020-07-07 20:56:22,657] - logger.py] - INFO: 查询成功: 200
+[2020-07-07 20:56:22,659] - logger.py] - INFO: -------------end:search_songs----------
+[2020-07-07 20:56:22,673] - logger.py] - INFO: -------------start:select_detail----------
+[2020-07-07 20:56:23,399] - logger.py] - INFO: 查询歌曲详情：200
+[2020-07-07 20:56:23,399] - logger.py] - INFO: -------------end:select_detail----------
